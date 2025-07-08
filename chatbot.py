@@ -55,6 +55,7 @@ def envoi_au_chatbot(prompt):
     try:
         response = client.responses.create(
             model="ft:gpt-4.1-nano-2025-04-14:jn-formation::Bqy2C4rj",
+            instructions="Réponses au ton professionnel liées aux CGV fine-tunées. En cas d'absence de réponse renvoyer 'Je ne peux pas répondre à votre requête dans le cadre des CGV'",
             input=prompt
         )
         statut = 1  # success
