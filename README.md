@@ -53,7 +53,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🐳 Base de données (SQLite via Docker)
+## 🐳 Base de données (SQL via Docker)
 
 Dans le dossier `/data`, exécutez :
 
