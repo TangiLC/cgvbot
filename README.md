@@ -120,4 +120,11 @@ chatbot-cgv/
 
 ---
 
+## TO DO
+- Factorisation et sécurisation (.env)
+- try/except affiné 
+- Gestion du statut fail des réponses
+
+---
+
 **Bon développement !**
