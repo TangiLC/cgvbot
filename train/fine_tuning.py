@@ -3,9 +3,9 @@ from dotenv import load_dotenv
 import os
  
 load_dotenv()
+OPENAI_FILE_ID = os.getenv("OPENAI_FILE_ID")
+OPENAI_MODEL = os.getenv("OPENAI_MODEL")
  
-OPENAI_FILE_ID = "file-3jHzjcLMQXJmxPfQeTThW8"
-OPENAI_MODEL = "gpt-4.1-nano-2025-04-14"
 print("Using training file ID:", OPENAI_FILE_ID)
  
 client = OpenAI()
