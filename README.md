@@ -8,6 +8,12 @@ Ce projet est un **Proof of Concept (POC)** académique développé dans le cadr
 - **Objectif** : Simuler un assistant interne répondant aux questions sur les CGV (paiement, rétractation, livraison, garantie, données personnelles)
 - **Livrable** : MVP fonctionnant en **ligne de commande** (sans interface graphique)
 
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue?logo=python)
+![Ubuntu 24.04](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-nano4.1-5A5A5A?logo=openai)
+![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Container-2496ED?logo=docker&logoColor=white)
+
 ## 🛠️ Fonctionnalités
 
 - Chargement d’un pré-prompt métier.
